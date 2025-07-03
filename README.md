@@ -1,5 +1,7 @@
 # 🎬 Movie Recommender System
 
+Deployed at: https://movify-mrs-759911d1e181.herokuapp.com/
+
 This project is a content-based movie recommender system built using Python, pandas, scikit-learn, and NLP techniques. It recommends movies similar to a given title based on genres, keywords, cast, crew, and overview.
 
 ## Features
