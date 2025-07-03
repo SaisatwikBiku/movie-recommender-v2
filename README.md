@@ -43,4 +43,13 @@ Install Dependencies:
 pip install pandas numpy scikit-learn nltk
 ```
 
+## app.py
+
+For the app.py to work, you will have to first use tuple to extract .pkl files for movies_dict.pkl and similarity.pkl. To get those files, go to movie-recommender-system.ipynb then import tuple module. Then use the following code:
+
+```python
+pickle.dump(new_movies.to_dict(), open('movies_dict.pkl', 'wb'))
+pickle.dump(similarity, open('similarity.pkl', 'wb'))
+```
+
 This Project is going through active development. This Readme gives basic idea only.
